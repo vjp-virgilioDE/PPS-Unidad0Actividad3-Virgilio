@@ -57,3 +57,57 @@ Para trabajar en el proyecto localmente, puedes clonarlo en tu computadora:
 
    ```bash
    git clone <URL_DEL_PROYECTO>
+   ```
+
+Este comando descargará el proyecto en tu computadora.
+
+### 3.3 Realizar Cambios y Hacer Commit
+
+Para hacer cambios en tu proyecto:
+
+1. Modifica los archivos en tu repositorio local.
+2. Añade los cambios a Git con el siguiente comando:
+
+   ```bash
+   git add .
+   ```
+
+3. Luego, realiza un commit para guardar los cambios localmente:
+
+   ```bash
+   git commit -m "Descripción breve de los cambios"
+   ```
+
+### 3.4 Subir Cambios a GitLab (Push)
+
+Para enviar los cambios a GitLab, usa el siguiente comando en tu terminal:
+
+```bash
+git push origin main
+```
+
+Este comando sube los cambios a la rama `main` del proyecto en GitLab.
+
+### 3.5 Colaboración en Proyectos
+
+GitLab permite colaborar en proyectos de diversas maneras:
+
+- **Fork**: Si deseas contribuir a un proyecto externo, puedes hacer un fork (copia) del proyecto y trabajar en él.
+- **Merge Request**: Tras realizar cambios en tu fork, puedes enviar una solicitud de fusión o *merge request* para que tus cambios sean revisados e integrados al proyecto original.
+- **Issues**: GitLab permite abrir y gestionar "issues" (problemas o solicitudes de mejora) en los proyectos, permitiendo la discusión de errores, sugerencias o mejoras.
+
+### 3.6 Uso de GitLab CI/CD
+
+GitLab CI/CD permite automatizar procesos de integración y entrega continua, como pruebas y despliegue de aplicaciones. Puedes configurar el CI/CD de GitLab añadiendo un archivo `.gitlab-ci.yml` en la raíz de tu repositorio, donde defines los pasos de construcción, pruebas y despliegue del proyecto.
+
+## 4. Consejos de Seguridad
+
+- **Autenticación de Dos Factores (2FA)**: Activa la autenticación de dos factores para mejorar la seguridad de tu cuenta.
+- **SSH**: Configura una clave SSH para evitar usar contraseñas al interactuar con tus proyectos desde la terminal.
+- **Gestión de Permisos**: GitLab permite administrar permisos y roles de los colaboradores para mantener la seguridad en proyectos privados.
+
+## Conclusión
+
+GitLab es una plataforma robusta para gestionar proyectos de desarrollo. Siguiendo estos pasos, podrás registrarte, iniciar sesión y entender el funcionamiento básico de la plataforma para comenzar a crear, colaborar y gestionar tus proyectos de manera eficiente.
+
+¡Bienvenido a GitLab!
